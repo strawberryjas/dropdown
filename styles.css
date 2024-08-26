@@ -1,0 +1,146 @@
+body,h1,h2,p,form.input,button{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color:#d27c7c
+text-align: center;
+padding:20px;
+}
+header{
+background:#333;
+color:#fff;
+padding:20px;
+margin-bottom:20px;
+}
+header h1{
+margin-bottom: 10px;
+}
+#cta
+{
+background:#8f9ebf;
+padding:20px;
+border-radius:5px;
+box-shadow:0 0 10px rgba(0,0,0,0,1);
+}
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+input[type="email"]{
+padding: 10px;
+border: 1px solid #add;
+border-radius: 5px;
+margin-bottom: 10px;
+width: 100%;
+max-width: 400px;
+}
+button{
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background: #333;
+color: #d181c6;
+cursor: pointer;
+}
+button: hover{
+background: #555;
+}
+footer{
+ margin-top: 20px;
+}
+/* Container for the call-to-action section */
+#cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Email input field styling */
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #add;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Drop-down section */
+#dropdown-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Drop-down button container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Drop-down button styling */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Drop-down content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change background color on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown when hovering over the button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the button when hovered over */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
